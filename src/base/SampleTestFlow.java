@@ -59,7 +59,6 @@ public class SampleTestFlow {
 		page.locator("xpath=//*[@name='address_line1']").fill("House 1");
 		page.locator("css=input#inputAddress2").fill("Sector 1");
 		page.locator("css=#inputState").fill("Haryana");
-		page.locator("id=inputState").fill("Haryana");
 		page.locator("css=input[name='zip']").fill("123456");
 	}
 }
